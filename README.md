@@ -46,7 +46,7 @@ Once you are in the new theme directory, you can start you theme development, th
 
 For more information regarding ghost theme development, please see: https://ghost.org/docs/api/v3/handlebars-themes/
 
-## Cloning Theme as exaple
+## Cloning Theme as example
 Its also possible to work from other themes, make sure to review the license though.
 
 Lets use the [London](https://github.com/TryGhost/London) theme from the [Ghost Marketplace](https://ghost.org/marketplace/).
