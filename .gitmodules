@@ -1,0 +1,3 @@
+[submodule "themes/Casper"]
+	path = themes/Casper
+	url = git@github.com:TryGhost/Casper.git
