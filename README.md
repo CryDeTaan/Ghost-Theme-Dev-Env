@@ -45,3 +45,21 @@ cd <new theme>
 Once you are in the new theme directory, you can start you theme development, this is also where you want to `git init` to make use of the theme in your ghost production site.
 
 For more information regarding ghost theme development, please see: https://ghost.org/docs/api/v3/handlebars-themes/
+
+## Cloning Theme as exaple
+Its also possible to work from other themes, make sure to review the license though.
+
+Lets use the [London](https://github.com/TryGhost/London) theme from the [Ghost Marketplace](https://ghost.org/marketplace/).
+
+So in the Themes directory, lets clone the theme:
+```
+cd Ghost-Theme-Dev-Env/themes
+git clone https://github.com/TryGhost/London.git
+```
+
+Once the theme has been cloned, make sure to restart ghost by restarting the Docker container.
+```
+docker restart blog
+```
+
+Once the container has restarted and ghost is up and running again, you be able to see and activate the London theme from the [INSTALLED THEMES](http://localhost:3001/ghost/#/settings/design) section.
