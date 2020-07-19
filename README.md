@@ -5,12 +5,10 @@ This is an environment for doing Ghost Theme Development in a docker container
 The idea here is just clone this repository to get the files, it should not really remain a git repo.
 
 ```
-git clone --depth=1 --branch=master --recurse-submodules git@github.com:CryDeTaan/Ghost-Theme-Dev-Env.git
-```
-Change direcotry to cloned repo
-```
-cd Ghost-Theme-Dev-Env/
-rm -rf .git
+git clone --depth=1 --branch=master --recurse-submodules \
+  git@github.com:CryDeTaan/Ghost-Theme-Dev-Env.git && \
+  cd Ghost-Theme-Dev-Env/ && \
+  rm -rf .git
 ```
 
 ## Run docker
